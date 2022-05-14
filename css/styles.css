@@ -290,7 +290,7 @@ h1 {
 @media screen and (max-width: 414px) {
 
 	#container {
-		max-width: 373px;
+		max-width: 412px;
 	}
 
 	.header-inner {
@@ -329,7 +329,7 @@ h1 {
 	}
 
 	.menu-open .header-inner {
-		max-width: 375px;
+		max-width: 414px;
     	margin: 0 auto;
     	min-height: 332px;
     	padding-bottom: 44px;
@@ -341,6 +341,10 @@ h1 {
 		display: block;
 		left: 20px;
 		margin-left: 0;
+	}
+
+	.menu-open + .carousel {
+		margin-top: 0;
 	}
 
 	/* Content */
