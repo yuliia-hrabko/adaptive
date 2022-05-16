@@ -1,12 +1,6 @@
 // Couner
 
-(function($) {
-    $('.count-num').rCounter(
-       {
-        duration: 30
-       }
-    ); 
-})(jQuery); 
+$('.count-num').countUp();
 
 //  Carousel
 
