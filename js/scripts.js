@@ -1,8 +1,18 @@
+// Couner
+
+(function($) {
+    $('.count-num').rCounter(
+       {
+        duration: 30
+       }
+    ); 
+})(jQuery); 
+
 //  Carousel
 
 $(document).ready(function(){
     $('.carousel').slick({
-        dots: true,
+        dots: false,
         arrows: false
     });
 });
@@ -16,12 +26,4 @@ burger.onclick = function() {
     header.classList.toggle("menu-open");
 }
 
-// Couner
-
-jQuery(document).ready(function($) {
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
-});
-
+  
